@@ -94,6 +94,12 @@ return packer.startup(function(use)
   -- Git
   use "lewis6991/gitsigns.nvim"
 
+  -- surrund
+  use "tpope/vim-surround" 
+  use "justinmk/vim-sneak"
+  use "github/copilot.vim"
+  use "easymotion/vim-easymotion"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
